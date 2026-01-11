@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.section-line {
+  width: 100%;
+  height: 4px;        /* ÉPAISSEUR */
+  background-color: #0d6efd;
+  border-radius: 2px;
+}
+
+.footer-icon {
+  color: white;
+  opacity: 0.6;              /* transparence */
+  transition: opacity 0.3s ease;
+}
+
+.footer-icon:hover {
+  opacity: 1;
+}
+
+/* ===== HERO SERVICES ===== */
+.banner {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* ===== LIGNE BLEUE ===== */
+.services-line {
+  width: 400px;
+  height: 4px;
+  background-color: #0d6efd;
+}
+
+/* ===== ICONES ===== */
+.services-icon {
+  font-size: 40px;
+  color: #0d6efd;
+}
+
+/* ===== PORTFOLIO ===== */
+
+.portfolio-hero {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.portfolio-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-line {
+  width: 400px;
+  height: 4px;
+  background-color: #0d6efd;
+}
+
+/* ===== CONTACT ===== */
+
+.contact-line {
+  width: 220px;
+  height: 4px;
+  background-color: #0d6efd;
+}
+
+/* ===== MENTIONS LEGALES ===== */
+
+.mentions-line {
+  width: 400px;
+  height: 4px;
+  background-color: #0d6efd;
+}
+
+/* ===== HOVER CARDS ===== */
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #fefefe;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* ===== HOVER BOUTONS ===== */
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
